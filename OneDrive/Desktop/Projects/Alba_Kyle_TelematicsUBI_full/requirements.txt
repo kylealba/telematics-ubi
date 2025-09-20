@@ -1,0 +1,24 @@
+# Core web
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.8.2
+
+# Data stack (choose by Python version)
+pandas==2.2.2; python_version >= "3.10"
+pandas==2.0.3;  python_version <  "3.10"
+
+numpy==1.26.4;  python_version >= "3.10"
+numpy==1.24.4;  python_version <  "3.10"
+
+scikit-learn==1.5.1; python_version >= "3.9"
+scikit-learn==1.3.2; python_version <  "3.9"
+
+joblib==1.4.2
+
+# Arrow (older wheel for older Python)
+pyarrow==17.0.0; python_version >= "3.10"
+pyarrow==12.0.1; python_version <  "3.10"
+
+# UI
+streamlit==1.37.1; python_version >= "3.9"
+streamlit==1.25.0; python_version <  "3.9"
